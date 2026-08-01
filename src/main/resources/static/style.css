@@ -1,0 +1,72 @@
+body{
+    font-family: Arial, sans-serif;
+    background:#121212;
+    color:white;
+    margin:0;
+    padding:20px;
+}
+
+h1{
+    text-align:center;
+    color:#00d4ff;
+}
+
+.search-box{
+    text-align:center;
+    margin:20px;
+}
+
+input{
+    padding:10px;
+    width:250px;
+    border-radius:5px;
+}
+
+button{
+    padding:10px 15px;
+    border:none;
+    background:#00d4ff;
+    color:white;
+    border-radius:5px;
+    cursor:pointer;
+    margin-left:5px;
+}
+
+button:hover{
+    background:#0099cc;
+}
+
+#movies{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+.movie-card{
+    background:#1f1f1f;
+    padding:15px;
+    width:280px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,212,255,.4);
+}
+
+.movie-card h2{
+    color:#00d4ff;
+}
+.poster{
+    width:100%;
+    height:300px;
+    object-fit:cover;
+    border-radius:10px;
+    margin-bottom:15px;
+}
+
+.movie-card{
+    transition:0.3s;
+}
+
+.movie-card:hover{
+    transform:scale(1.05);
+    box-shadow:0 0 20px cyan;
+}
