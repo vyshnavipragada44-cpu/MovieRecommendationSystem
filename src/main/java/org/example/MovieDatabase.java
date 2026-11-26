@@ -10,7 +10,7 @@ public class MovieDatabase {
 
         movies.add(new Movie("Inception", "Sci-Fi", 8.8));
         movies.add(new Movie("Interstellar", "Sci-Fi", 8.6));
-        movies.add(new Movie("The Dark Knight", "Action", 9.0));
+        movies.add(new Movie("The Dark Knight", "Action", 9.0)); 
         movies.add(new Movie("Avengers: Endgame", "Action", 8.4));
         movies.add(new Movie("3 Idiots", "Comedy", 8.4));
         movies.add(new Movie("Dangal", "Drama", 8.3));
