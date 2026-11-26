@@ -14,7 +14,7 @@ public class RecommendationEngine {
         for (Movie movie : movies) {
             if (movie.getGenre().equalsIgnoreCase(user.getPreferredGenre())) {
                 System.out.println(movie);
-            }
+            } 
         }
     }
 }
