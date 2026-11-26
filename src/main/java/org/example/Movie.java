@@ -21,7 +21,7 @@ public class Movie {
 
     public double getRating() {
         return rating;
-    }
+    } 
 
     @Override
     public String toString() {
