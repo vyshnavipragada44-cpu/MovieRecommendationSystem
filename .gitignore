@@ -15,7 +15,7 @@ target/
 *.ipr
 
 ### Eclipse ###
-.apt_generated
+.apt_generated 
 .classpath
 .factorypath
 .project
