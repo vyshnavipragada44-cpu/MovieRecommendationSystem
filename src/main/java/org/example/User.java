@@ -15,5 +15,5 @@ public class User {
 
     public String getPreferredGenre() {
         return preferredGenre;
-    }
+    } 
 }
